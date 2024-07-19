@@ -9,7 +9,13 @@ Action: bash commands
 Observation: result of the bash command
 ... (this Thought/Action/Observation can repeat N times)
 Thought: Task is done
-```
+
+Instruction: Set up and install NextJS
+Thought: I need to check if node.js is installed first
+Action: node -v
+Observation: v22.4.1
+Thought: I need to install NextJS
+Action: 
 
 ### Example Instruction:
 
@@ -19,3 +25,4 @@ Thought: Task is done
 4. Create a html extract script to extract all the links from a webpage
 5. Create a script to download all the images from a webpage
 6. Create a script that extract all the text from a webpage and delete all the html tags
+```
